@@ -9,7 +9,8 @@ public class PetService {
 
     public List getAvailableBreeds(PetType type){
 
-        List breeds = new ArrayList();
+        System.out.println("Changing petservice....")
+    	List breeds = new ArrayList();
 
         if(type.equals(PetType.DOG)){
         	breeds.add("Labradar");
